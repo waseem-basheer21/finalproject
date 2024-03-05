@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assign.css">
+    <title>Assignment Page</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <h2> <span class="orange-text">Skill-</span><span class="black-text">Lama</span></h2>
+        </div>
+        <ul>
+            <li>
+                <select id="courses" name="courses">
+                    <option value="#">Courses</option>
+                    <option value="#">Course 1</option>
+                    <option value="#">Course 2</option>
+                </select>
+            </li>
+            <li>
+                <select id="career" name="career">
+                    <option value="#">Career</option>
+                    <option value="#">Career 1</option>
+                    <option value="#">Career 2</option>
+                </select>
+            </li>
+            <li><a href="educators.html">For Educators</a></li>
+            <li><a href="about us.html">About us</a></li>
+            <li><a href="#" style="background-color:rgb(254, 104, 35); color:black; padding: 8px 15px; border-radius: 5px;">Login</a></li>
+        </ul>
+    </nav><br><br>
+    <div class="container">
+        <section class="hero">
+            <h2>Need Help in your <span class=highlight>assignments?</span></h2>
+            <h2><span class=highlight>Skill</span>Lama is here</h2><br><hr><br><br>
+            <div class="search-bar">
+                <input type="text" placeholder="Search your assignment">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
+            <br>
+            
+            <div class="file">
+                <button id="uploadButton"><i class="fas fa-arrow-up"></i>Upload File</button>
+                <input type="file" id="fileUpload" name="uploadedFile" hidden>
+                <script>
+                    const uploadButton = document.getElementById('uploadButton');
+                    const fileUpload = document.getElementById('fileUpload');
+                  
+                    uploadButton.addEventListener('click', () => {
+                      fileUpload.click();
+                    });
+                  </script>
+                </div>
+                <br><br>
+                <a href="pricing.html"><button style="background-color: orangered;margin-left: 10rem;; border-radius: 1rem;font-size: 18px; color: white; 
+                padding:1rem; display: flex; justify-content: center;">Get Solution</button></a>
+        </section>
+        <div class="image">
+            <img src="sample2.1.jpg" alt="About Us Image">
+        </div>
+    </div>
+</body>
+</html>

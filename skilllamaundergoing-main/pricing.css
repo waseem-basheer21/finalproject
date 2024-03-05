@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    font-family: 'Roboto', sans-serif, Inter;
+    background-color: white;
+    color: black;
+    /* border-left: 50px solid rgb(195, 86, 19);
+   border-right: 50px solid rgb(195, 86, 19); 
+   border-bottom:  50px solid rgb(195, 86, 19);  */
+
+}
+nav{
+    /* position: fixed; */
+    width: auto;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color:white;
+    box-shadow: 0px 2px 6px 2px rgb(29, 27, 27);
+    padding: 20px;
+
+/* border-top: 50px solid rgb(195, 86, 19); */
+}
+nav ul{
+    margin-right: 42px;
+    margin-top: 6px;
+}
+
+.topView{
+
+    margin: auto;
+    border: 36px solid   #E76F00 ;
+}
+
+/* .container{
+    margin:12px ;
+} */
+
+.logo{
+    margin-left: 13px;
+    font-size: 22px;
+}
+.logo span{
+    color: #E76F00;
+}
+nav ul a{
+    margin-inline: 20px;
+    color: black;
+    text-decoration: none;
+}
+ul a:hover{
+    color: #E76F00;
+    
+}
+nav button{
+    width: 70px;
+    height: 28px;
+    background-color: #E76F00;
+    color: white;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    padding: 1px;
+    border: none;
+    
+}
+nav button:hover{
+    border: 2px solid #E76F00;
+    background-color: transparent;
+    color: black;
+}
+
+.head{
+    text-align: center;
+    padding: 50px;
+    margin-top: 10px;
+    font-weight:bolder;
+font-weight: 800;
+}
+.head h2{
+color: black;
+margin-bottom: 16px;
+}
+
+.train{
+    display: flex;
+    justify-content: center;
+}
+ .train .card{
+    width: 250px;
+    height: 420px;
+    background-color:white;
+    box-shadow: 0px 1px 6px 1px grey;
+    border-radius: 14px;
+    margin-inline: 30px;
+}
+.trainText{
+    padding: 22px;
+}
+#change{
+    padding-bottom: 10px;
+    
+}
+.card a{
+    width: 150px;
+    padding: 6px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.trainText h4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.card {
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: scale(1.10); /* Increase size slightly on hover */
+   border: 2px solid #E76F00;
+
+}
+.card a:hover {
+    background-color: #E76F00;
+}
+
+.trainText h2{
+    text-align: center;
+    font-weight:bolder;
+}
+.trainText h6{
+    color: grey;
+    text-align: center;
+    font-style: none;
+}
+.trainText p{
+    font-size: 15px;
+}
+
+/* dropdown */
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    
+    color: #E76F00;
+  }
+
+
+/* tick */
+
+  .blue-checkmark{
+    color: blue;
+    font-size: 2;
+    font-weight: bolder;
+    border-radius: 0%;
+    margin-right: 5px;
+  }
+  .trainText p{
+    color: grey;
+  }
+
+
+/* text of h4 */
+
+  .card:hover .trainText h4 {
+    color: #E76F00;
+    font-size: 20px;
+  }
